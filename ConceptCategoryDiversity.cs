@@ -25,7 +25,7 @@ namespace ConceptCatDiv
 
         public string PluginName { get; } = "Concept-Category Diversity";
         public string PluginType { get; } = "Language Analysis";
-        public string PluginVersion { get; } = "1.0.1";
+        public string PluginVersion { get; } = "1.1.0";
         public string PluginAuthor { get; } = "Ryan L. Boyd (ryan@ryanboyd.io)";
         public string PluginDescription { get; } = "This plugin is designed primarily to quantify the \"active emotion vocabulary\" of a text. This code is derived from an earlier, stand-alone program called \"Vocabulate\" which itself implemented the underlying method for the following paper: " + Environment.NewLine + Environment.NewLine +
                                                    "Vine, V., Boyd, R. L., & Pennebaker, J. W. (2020). Natural emotion vocabularies as windows on distress and well-being. Nature Communications, 11(4525), 1-9. https://doi.org/10.1038/s41467-020-18349-0" + Environment.NewLine + Environment.NewLine +
@@ -71,7 +71,7 @@ namespace ConceptCatDiv
                                         "Dependencies" + Path.DirectorySeparatorChar +
                                         "ConceptCatDivDicts");
 
-        private static string defaultDictFilename = "2019-07-30 - AEV_Dict.csv";
+        private static string defaultDictFilename = "2022-04-12 - AEV_Dict.csv";
 
         private string defaultEncoding = System.Text.Encoding.UTF8.BodyName;
         private Dictionary<string, int> OutputMap { get; set; }
@@ -245,7 +245,7 @@ namespace ConceptCatDiv
             //}
             //catch
             //{
-            //    dictData = dictLoad.ParseDictionary(Properties.Resources._2019_07_30___AEV_Dict, delim, quote);
+            //    dictData = dictLoad.ParseDictionary(Properties.Resources._2022_04_12___AEV_Dict, delim, quote);
             //}
 
         }

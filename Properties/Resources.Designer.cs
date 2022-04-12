@@ -90,9 +90,9 @@ namespace ConceptCatDiv.Properties {
         ///discourage*,X,,,,X,
         ///disgust,X,,, [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string _2019_07_30___AEV_Dict {
+        internal static string _2022_04_12___AEV_Dict {
             get {
-                return ResourceManager.GetString("_2019_07_30___AEV_Dict", resourceCulture);
+                return ResourceManager.GetString("_2022_04_12___AEV_Dict", resourceCulture);
             }
         }
         
